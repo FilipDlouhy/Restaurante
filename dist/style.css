@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/zeus.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    background-color:black;
+    height: 70px;
+    
+}
+nav{
+    width: 100%;
+    height: 100px;
+    opacity:1;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    width: 70%;
+    margin: 0 auto;
+}nav ul li{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    height: 100%;
+    width:33.2%;
+    opacity: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid #009ffd;
+    }
+
+    
+    nav ul li:hover{
+        background-color: #b98ee3;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+transition: 0.4s;
+color :#4c4e4f;
+cursor: pointer;
+height: 80%;
+ border-top: 2px solid #647dee;
+ border-bottom: 2px solid #647dee;
+ font-size: 3rem;
+ width: 30%;
+margin:  10px;
+    }
+    nav ul li:focus{
+        background-color: #b98ee3;
+        background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+        transition: 0.4s;
+        color :#4c4e4f;
+        cursor: pointer;
+        height: 80%;
+         border-top: 2px solid #647dee;
+         border-bottom: 2px solid #647dee;
+         font-size: 3rem;
+         width: 30%;
+        margin:  10px;
+    }
+    .display{
+     
+        height:100vh;
+        background-color:rgba(38, 36, 36, 0.4);
+ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+        width: 100vw;
+    }
+    footer{
+        height: 70px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+
+    }
+.home{
+    height: 50%;
+    width: 80%;
+    background-color:rgba(16, 15, 15, 0.8);
+    opacity: 1;
+    text-align: center;
+    color: azure;
+    font-size: 3rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: appear;
+    animation-duration:0.8s;
+  
+}
+.about-us{
+    opacity: 1;
+    text-align: center;
+    color: azure;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0 50px;
+}
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  /*menu*/
+  .MENU{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(16, 15, 15, 0.8);
+    
+    
+    animation-name: appear;
+    animation-duration:0.8s;
+  }
+  .menu-item{
+    height:300px;
+    width:350px;
+    border: 1px solid wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: appear;
+    animation-duration:0.8s;
+   margin: 20px;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .menu-item p
+   {
+
+    font-size: 3rem;
+    color: white;
+    opacity: 0;width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    height: 150px;
+
+   }
+   .menu-item:hover p{
+    opacity: 1;
+    font-size: 4rem;
+    transition: 0.5s;
+    background-color:rgba(16, 15, 15, 0.8);
+
+
+   }
+   .menu-item:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+   }
+  .flex-container{
+    height: 80%;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+  @-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  .item1{
+    background-image: url("img/1.jpg");
+    background-size: cover;
+  }
+  .item2{
+    background-image: url("img/2.jpg");
+    background-size: cover;
+  }
+  .item3{
+    background-image: url("img/3.jpg");
+    background-size: cover;
+  }
+  .item4{
+    background-image: url("img/4.jpg");
+    background-size: cover;
+  }
+  .item5{
+    background-image: url("img/5.jpg");
+    background-size: cover;
+  }
+  .item6{
+    background-image: url("img/6.jpg");
+    background-size: cover;
+  }
+  .item7{
+    background-image: url("img/7.jpg");
+    background-size: cover;
+  }
+  .item8{
+    background-image: url("img/8.jpg");
+    background-size: cover;
+  }
+  .item9{
+    background-image: url("img/9.jpg");
+    background-size: cover;
+  }
+  /* contact*/
+  
+  .CONTACT{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 80%;
+    animation-name: appear;
+    animation-duration:0.8s;
+  }
+  .phone{
+   height: 70%; 
+   width: 35%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgba(16, 15, 15, 0.6)
+   ;
+   border-radius: 20px;
+   gap:10px ;
+   animation-name: appear;
+   animation-duration:0.8s;
+  }
+  .phone p{
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 5px;
+    width: 80%;
+    word-spacing: 5px;
+  }
+  .map{
+    height: 90%; 
+   width: 35%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgba(16, 15, 15, 0.6)
+   ;
+   border-radius: 20px;
+   gap:10px ;
+   animation-name: appear;
+   animation-duration:0.8s;
+  }
+  .map h2{
+    text-align: center;
+    color: antiquewhite;
+    border-bottom: 1px solid yellow;
+    width: 80%;
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+  .map img{
+    border: 2px solid yellowgreen;
+    border-radius: 50px;
+  }
